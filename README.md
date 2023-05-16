@@ -6,4 +6,7 @@
 Converse Chuck Taylor All Star Low Top; Created on codepen with HTML and CSS
 >>>>>>> a5c45dc170a3dc67c23fc81b3ca45c08ef91d253
 A Pen created on CodePen.io. Original URL: [https://codepen.io/dibia27/pen/NWOWmLy](https://codepen.io/dibia27/pen/NWOWmLy).
+# second commit on html and css was edited using visual studio.
+second commit includes all colors available for converse-chuck-taylor-all-star-top
+second commit includes the red sale tag on the top-left corner.
 
