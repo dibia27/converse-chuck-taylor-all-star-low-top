@@ -1,7 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 825px;
+  margin: 30px auto;
+  position: relative;
+}
 article {
   border: solid black;
   font-family: sans-serif;
-  line-height: 1.4;
+  line-height: 1.9;
 }
 h2 {
   text-align: center;
@@ -17,24 +26,78 @@ h2 {
   font-weight: bold;
   font-size: 10px;
   color: #555b57;
+  margin-bottom: 20px;
 }
+.sale{
+  background-color: #ec2f3f;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  text-align: center;
+  display:inline-block;
+  position:absolute;
+  top:-17px;
+  left:-33px;
+
+}
+.color{
+  background-color: #000;
+  height:22px;
+  width:22px;
+  display:inline-block;
+  margin-right: 10px;
+}
+.color-blue{
+  background-color: #2f6ee2;
+}
+.color-red{
+  background-color: #ec2f3f;
+}
+.color-yellow{
+  background-color: #f0bf13;
+}
+.color-green{
+  background-color: #90cc20;
+}
+.color-brown{
+  background-color: #885214;
+
+}
+
+
+
+
+
+
+
 .product {
   text-transform: uppercase;
   font-size: 16px;
+  margin-top: 20px;
 }
 a:link,
 a:visited {
   color: rgb(0, 0, 0);
+  margin-bottom:30px;
+  display: inline-block;
 }
 a:hover,
 a:active {
   text-decoration: none;
 }
 button {
-  border: none;
+  padding: 15px;
   background-color: rgb(0, 0, 0);
-  cursor: pointer;
+  cursor: pointer; 
+  width: 100%;
+  border-top: 4px solid black;
 }
+/* .button {
+  width: 100%;
+  margin: 0 auto;
+} */
 button p {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
@@ -46,4 +109,5 @@ button:hover {
 
 li {
   list-style: square;
+  margin-left: 20px;
 }
